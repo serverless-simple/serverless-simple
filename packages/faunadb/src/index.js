@@ -1,4 +1,7 @@
-import faunadb from 'faunadb'
+import faunadb, { query } from 'faunadb'
+
+// re-export query and faunadb as a convenience
+export { query }
 
 // middleware to inject a faunadb
 export default async function (ctx, next) {
