@@ -1,0 +1,19 @@
+{
+  "name": "@serverless-simple/graphql",
+  "version": "0.0.1",
+  "description": "Serverless-simple middleware for building graphql endpoints",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "repository": "https://github.com/serverless-simple/serverless-simple",
+  "author": "Tyler Flint <tylerflint@gmail.com>",
+  "homepage": "https://github.com/serverless-simple/serverless-simple/tree/master/packages/graphql/README.md",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src/**/*",
+    "README.md",
+    "package.json"
+  ]
+}

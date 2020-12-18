@@ -1,0 +1,22 @@
+{
+  "name": "@serverless-simple/app",
+  "version": "0.0.1",
+  "description": "The serverless app instance",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "repository": "https://github.com/serverless-simple/serverless-simple",
+  "author": "Tyler Flint <tylerflint@gmail.com>",
+  "homepage": "https://github.com/serverless-simple/serverless-simple/tree/master/packages/app/README.md",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "@cfworker/web": "^1.6.0"
+  }
+}

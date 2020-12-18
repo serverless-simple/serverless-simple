@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# just a shim to call the .js bin
+node "$( dirname "${BASH_SOURCE[0]}" )"/simple.js "$@"

@@ -1,0 +1,23 @@
+{
+  "name": "serverless-simple",
+  "version": "0.0.1",
+  "description": "Develop and deploy serverless-simple apps",
+  "author": "Tyler Flint <tylerflint@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "patch": "lerna version patch",
+    "minor": "lerna version minor",
+    "major": "lerna version major",
+    "release": "lerna publish",
+    "reinstall": "find . -name \"node_modules\" -type d -prune -exec rm -rf '{}' + && rm -f yarn.lock && yarn install",
+    "readme-gen": "bin/readme-gen"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

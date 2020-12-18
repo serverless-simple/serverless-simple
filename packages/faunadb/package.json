@@ -1,0 +1,22 @@
+{
+  "name": "@serverless-simple/faunadb",
+  "version": "0.0.1",
+  "description": "Serverless-simple middleware for using FaunaDB",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "repository": "https://github.com/serverless-simple/serverless-simple",
+  "author": "Tyler Flint <tylerflint@gmail.com>",
+  "homepage": "https://github.com/serverless-simple/serverless-simple/tree/master/packages/faunadb/README.md",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "faunadb": "^3.0.1"
+  }
+}
