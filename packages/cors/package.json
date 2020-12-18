@@ -1,6 +1,6 @@
 {
   "name": "@serverless-simple/cors",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Serverless-simple middleware for setting CORS config",
   "main": "src/index.js",
   "module": "src/index.js",
