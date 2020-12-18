@@ -4,6 +4,8 @@ const DEFAULTS = {
   useKV    : false,
   useFauna : false,
   language : 'javascript',
+  buildCmd : 'webpack',
+  devCmd   : 'webpack --watch',
   testCmd  : 'jest'
 }
 

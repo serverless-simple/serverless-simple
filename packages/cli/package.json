@@ -29,6 +29,8 @@
     "lodash.filter": "^4.6.0",
     "lodash.get": "^4.4.2",
     "mustache": "^4.0.1",
-    "short-unique-id": "^3.0.4"
+    "short-unique-id": "^3.0.4",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.1.0"
   }
 }
