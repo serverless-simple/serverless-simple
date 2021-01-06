@@ -1,6 +1,6 @@
 {
   "name": "@serverless-simple/graphql",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Serverless-simple middleware for building graphql endpoints",
   "main": "src/index.js",
   "module": "src/index.js",

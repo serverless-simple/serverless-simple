@@ -1,6 +1,6 @@
 {
   "name": "@serverless-simple/stacktrace",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Serverless-simple middleware for creating stacktraces from the original source",
   "main": "src/index.js",
   "module": "src/index.js",

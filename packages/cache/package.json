@@ -1,6 +1,6 @@
 {
   "name": "@serverless-simple/cache",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Serverless-simple middleware for managing a KV cache layer",
   "main": "src/index.js",
   "module": "src/index.js",
