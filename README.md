@@ -22,6 +22,9 @@ Develop and deploy serverless apps on Cloudflare. Focus on your app, not the det
 - `@serverless-simple/graphql`: [readme](https://github.com/serverless-simple/serverless-simple/tree/master/packages/graphql/README.md) | [npm](https://www.npmjs.com/package/@serverless-simple/graphql)
 
     Serverless-simple middleware for building graphql endpoints
+- `@serverless-simple/stacktrace`: [readme](https://github.com/serverless-simple/serverless-simple/tree/master/packages/stacktrace/README.md) | [npm](https://www.npmjs.com/package/@serverless-simple/stacktrace)
+
+    Serverless-simple middleware for creating stacktraces from the original source
 
 ## contributing
 

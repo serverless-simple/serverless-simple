@@ -5,6 +5,7 @@ const app = require('commander')
 
 // import the commands
 const init      = require('../src/cmd/init')
+const compile   = require('../src/cmd/compile')
 const dev       = require('../src/cmd/dev')
 const deploy    = require('../src/cmd/deploy')
 const teardown  = require('../src/cmd/teardown')
@@ -22,6 +23,12 @@ app
   .command('init')
   .description('Initialize a project with serverless-simple')
   .action(init)
+
+// compile
+app
+  .command('compile')
+  .description('Compile the app from source')
+  .action(compile)
 
 // dev
 app

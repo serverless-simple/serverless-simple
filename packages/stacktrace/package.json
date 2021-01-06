@@ -1,0 +1,24 @@
+{
+  "name": "@serverless-simple/stacktrace",
+  "version": "0.0.5",
+  "description": "Serverless-simple middleware for creating stacktraces from the original source",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "repository": "https://github.com/serverless-simple/serverless-simple",
+  "author": "Tyler Flint <tylerflint@gmail.com>",
+  "homepage": "https://github.com/serverless-simple/serverless-simple/tree/master/packages/stacktrace/README.md",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "error-stack-parser": "^2.0.6",
+    "source-map": "^0.7.3",
+    "stacktrace-gps": "^3.0.4"
+  }
+}

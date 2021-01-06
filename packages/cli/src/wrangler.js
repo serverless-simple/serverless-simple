@@ -86,6 +86,28 @@ async function hasSecret (key, env, config) {
   return (matches.length > 0)
 }
 
+async function setCache (key, value, config) {
+  // assemble the command
+  let cmd = `kv:key put --namespace-id ${config.cacheNamespace} "${key}"`
+  
+  // check to see if this is a file
+  const isFile = value.match(/file:\/\/(.+)/)
+  
+  // load the file from the path
+  if (isFile) {
+    cmd = `${cmd} --path ${isFile[1]}`
+  } else {
+    cmd = `${cmd} "${value}"`
+  }
+  
+  // console.log(cmd)
+  
+  // create it
+  const { stdout } = await run(cmd, config)
+  
+  return stdout
+}
+
 async function run (cmd, config) {
   // create config
   createConfig(config)
@@ -205,5 +227,6 @@ module.exports = {
   ensureSecret,
   hasSecret,
   createConfig,
-  removeConfig
+  removeConfig,
+  setCache
 }
